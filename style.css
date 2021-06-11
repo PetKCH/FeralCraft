@@ -1,0 +1,213 @@
+::selection {
+    color: #ff3333;
+    background-color: #000;
+}
+::moz-selection {
+    color: #ff3333;
+    background-color: #000;
+}
+.player-count {
+    display: inline-block;
+    text-shadow: 0px 0px 5px;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+wrap {
+    background-image: none;
+}
+a {
+	color: orange;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Raleway' !important;
+    margin: 0px;
+    background-image: url("images/background.jpg") !important;
+    padding: 5px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat !important;
+    -webkit-animation: move-bg 15s ease-in-out infinite alternate;
+    animation: move-bg 15s ease-in-out infinite alternate;
+    height: 100%;
+	color: #ff3333;
+    overflow: hidden;
+}
+@-webkit-keyframes "move" {
+    from {
+        top: 0;
+    }
+    to {
+        top: -1.0rem;
+    }
+}
+@keyframes "move" {
+    from {
+        top: 0;
+    }
+    to {
+        top: -1.0rem;
+    }
+}
+.links a.btn:hover {
+    border-bottom: 0px solid #488BB2;
+}
+#copy i.fa.fa-check-circle-o {
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 1px;
+    text-shadow: 0px 0px 9px;
+    color: #64B53D
+}
+.links a.btn {
+    border-bottom: 0px solid #488BB2;
+    font-family: 'Raleway' !important
+}
+.links a.btn:hover img {
+    -webkit-animation: c .7s ease-in infinite alternate;
+    animation: c .7s ease-in infinite alternate
+}
+.links a.btn img {
+    position: relative;
+    bottom: 0px
+}
+.pageWidth {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.logo {
+    margin-top: 0%;
+    padding: 0px;
+    -webkit-animation: a 1s linear infinite alternate;
+    animation: a 1s linear infinite alternate;
+}
+.logo li {
+    list-style: none;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.logo li img {
+    width: 45%
+}
+@-webkit-keyframes "a" {
+    0% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+    to {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+}
+@keyframes "a" {
+    0% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+    to {
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+}
+.links a.btn {
+    padding: 12px 6px;
+    min-width: 130px;
+    margin: 0 5px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.links {
+    text-align: center;
+}
+.links li {
+    display: inline-block;
+}
+.links a.btn img {
+    max-width: 145px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+@-webkit-keyframes "c" {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+    }
+}
+@keyframes "c" {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+    }
+}
+.links {
+    margin-top: 1.5%;
+    padding: 10px;
+}
+.clicktocopy .left {
+    display: inline-block;
+}
+.left.ip {
+    text-transform: none !important;
+    font-weight: 700;
+}
+.clicktocopy {
+    color: #ff3333 !important;
+    background: rgb(112,128,144);
+    padding: 10px;
+    max-width: 225px;
+    text-align: center;
+    margin: 1.75% auto;
+    border: 0px solid #90a4ae;
+    box-shadow: inline 5px 5px 5px 10px #FDC945;
+    font-family: 'Raleway' !important;
+    font-size: 17px;
+    font-weight: bold;
+	opacity: 0.85;
+}
+.body-wrap-3 {
+    overflow-x: hidden;
+    min-width: 954px;
+    overflow: hidden;
+}
+#vote {
+	text-decoration: none !important;
+}
+footer[role="contentinfo"] {
+	padding-bottom: 50px;
+	font-size: 10px;
+}
+
+footer[role="contentinfo"] a {
+	transition: color .5s;
+}
+
+footer[role="contentinfo"] a:hover {
+	color: #ff3333;
+}
+
+#copyright {
+	display: table;
+	margin: 0 auto;
+	background-color: #647177;
+	box-shadow: 64 66 66px #3a3f42;
+	padding: 10px 18px;
+	border: 2px solid #647177;
+	border-radius: 5px;
+}
