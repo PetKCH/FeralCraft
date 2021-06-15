@@ -6,13 +6,6 @@
     color: #ff3333;
     background-color: #000;
 }
-.player-count {
-    display: inline-block;
-    text-shadow: 0px 0px 5px;
-    transition: all .25s ease-in-out;
-    -moz-transition: all .25s ease-in-out;
-    -webkit-transition: all .25s ease-in-out;
-}
 wrap {
     background-image: none;
 }
@@ -53,9 +46,6 @@ body {
         top: -1.0rem;
     }
 }
-.links a.btn:hover {
-    border-bottom: 0px solid #488BB2;
-}
 #copy i.fa.fa-check-circle-o {
     margin-left: 10px;
     position: absolute;
@@ -77,7 +67,7 @@ body {
 }
 .pageWidth {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 50%;
 }
 .logo {
     margin-top: 0%;
